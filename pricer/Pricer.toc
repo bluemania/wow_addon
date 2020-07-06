@@ -1,6 +1,7 @@
 ## Interface: 11304
 ## Title: Pricer
 ## Notes: Pricer
+## SavedVariables: PricerData
 ## Version: 1
 
 Pricer.lua
