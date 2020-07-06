@@ -1,7 +1,7 @@
 ## Interface: 11304
-## Title: Nick Test
-## Notes: Nick Test Notes
+## Title: Pricer
+## Notes: Pricer
 ## Version: 1
 
-NickTest.lua
+Pricer.lua
 
