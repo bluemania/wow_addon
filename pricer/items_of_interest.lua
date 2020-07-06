@@ -1,4 +1,6 @@
-items = {['Arcane Crystal'] = {},
+local addonName, addonTable = ...
+
+addonTable.items = {['Arcane Crystal'] = {},
  ['Arcane Elixir'] = {},
  ['Arcanite Bar'] = {},
  ['Blackmouth Oil'] = {},
@@ -57,10 +59,5 @@ items = {['Arcane Crystal'] = {},
  ['Thistle Tea'] = {},
  ['Thorium Bar'] = {},
  ['Thorium Ore'] = {},
- ['Wild Steelbloom'] = {},
- ['Crystal Vial'] = {},
- ['Leaded Vial'] = {},
- ['Empty Vial'] = {},
- ['Soothing Spices'] = {},
- ['Instant Poison VI'] = {},
- ['Crippling Poison II'] = {}}
+ ['Wild Steelbloom'] = {}
+}

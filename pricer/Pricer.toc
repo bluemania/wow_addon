@@ -4,5 +4,6 @@
 ## SavedVariables: PricerData
 ## Version: 1
 
+items_of_interest.lua
 Pricer.lua
 
