@@ -10,6 +10,7 @@ function SlashCmdList.PRICERTEST(msg, editbox) -- 4.
 	  addonTable.items[item]['market'] = o['market']
 	  addonTable.items[item]['recent'] = o['recent']
 	  addonTable.items[item]['stddev'] = o['stddev']
+    addonTable.items[item]['timestamp'] = o['age']
   else
   	print('Missing info for', item)
   end
@@ -24,5 +25,5 @@ SLASH_PRICERTESTVAL1 = '/pricerval'
 function SlashCmdList.PRICERTESTVAL(msg, editbox) -- 4.
   o={}
   TUJMarketInfo(msg, o)
-  print(o['market'], o['recent'], o['stddev'])
+  print(o['market'], o['recent'], o['stddev'], o['age'])
 end
